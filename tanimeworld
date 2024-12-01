@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the world of anime with latest episodes, reviews, and news!">
+    <title>Anime World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1c1c1c;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .anime-card {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            background: #fff;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .anime-card img {
+            width: 100%;
+            display: block;
+        }
+        .anime-card h3 {
+            margin: 10px;
+        }
+        .anime-card p {
+            margin: 10px;
+            font-size: 14px;
+        }
+        footer {
+            background-color: #1c1c1c;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anime World</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Anime List</a>
+        <a href="#">Genres</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Latest Anime</h2>
+        <div class="anime-card">
+            <img src="https://m.media-amazon.com/images/M/MV5BNmI1MmYxNWQtY2E5NC00ZTlmLWIzZGEtNzM1YmE3NDA5NzhjXkEyXkFqcGc@._V1_.jpg" alt="Jujutsu Kaisen">
+            </a><h3>Jjutsu Kaisen</h3>
+            <p>Jujutsu Kaisen (呪術廻戦, rgh. "Sorcery Battle")[a] is a Japanese manga series written and illustrated by Gege Akutami. </p>
+        </div>
+        <div class="anime-card">
+            <img src="https://m.media-amazon.com/images/M/MV5BNzY0ZTlhYzgtOTgzZC00ZTg2LTk4NTEtZDllM2E2NGE5Njg2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Despicable Me 4">
+            <h3>Despicable Me 4</h3>
+            <p>Despicable Me 4 is a 2024 American animated comedy film produced by Universal Pictures and Illumination.</p>
+        </div>
+        <div class="anime-card">
+            <img src="https://m.media-amazon.com/images/M/MV5BODQ5NGFjZTQtNDkzNy00YWVjLWJiNGMtNTk1YzVmMmQ1YWQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Miraculous: Tales of Ladybug & Cat Noir">
+            <h3>Miraculous: Tales of Ladybug & Cat Noir</h3>
+            <p>Miraculous: Tales of Ladybug & Cat Noir (French: Miraculous, les aventures de Ladybug et Chat Noir.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Anime World. All Rights Reserved.</p>
+    </footer>
+</body>
+</html> 
